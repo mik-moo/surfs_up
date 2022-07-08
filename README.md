@@ -1,34 +1,31 @@
-# Surfs_up
+# Surfs_up Temperature Analysis
 Module 9
 
+## Overview
+
+This analysis provides summary data for temperatures in the months of June and December to assist in the determination of location viability for a year-round surf and ice cream shop.  The analysis code can be found in SurfsUp_Challenge.ipynb. This report is supplemental to the analysis completed in climate_analysis.ipynb. 
+
+## Results
+
+- The dataset for June (1,700) was slightly larger than that of December (1,517). 
+
+- The summary statistics show that December has slightly lower temperatures than June.  
+  - The maximum temperature for June was 85°F and for December it was 83°F.
+  - The minimum temperature for June was 64°F and for December it was 56°F.
+  - Average temperatures were 75°F and 71°F for June and December, respectively. 
+  - The majority of temperatures for both months were above 74°F. 
+ 
+## Summary
+
+Summary statistics for June and December show that, based on temperature, the viability of year-round surf and ice cream sales look promising. (see summary tables below) 
+
+  <img src="Images/June_Summary_Stats.png" width = 117>                               <img src="Images/Dec_Summary_Stats.png" width = 150>
 
 
-W. Avy likes your analysis, but he wants more information about temperature trends before opening the surf shop. Specifically, he wants temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
+### Potential Additional Analysis
 
+In moving forward with this venture, there are a few additional analyses that may be considered.    
 
-For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
-
-The analysis should contain the following:
-
-Overview of the analysis: Explain the purpose of this analysis.
-Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
-Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
-
-Overview of the statistical analysis:
-
-The purpose of the analysis is well defined. (3 pt)
-Results:
-
-There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
-Summary:
-
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
+- Determine what the minimum temperature is for surfing based on W. Avy's expertise. Filter the data based upon >= that temperature for the months of interest.
+- Determine what is an acceptable level of precipitation for surfing and filter data based on <= that amount for the months of interest. 
+- Similar analysis could be performed for ice cream sales, but most people may still eat ice cream in the temperature ranges found in the summary statistics, so this may   not be as useful.  
