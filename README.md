@@ -29,3 +29,5 @@ In moving forward with this venture, there are a few additional analyses that ma
 - Determine what the minimum temperature is for surfing based on W. Avy's expertise. Filter the data based upon >= that temperature for the months of interest.
 - Determine what is an acceptable level of precipitation for surfing and filter data based on <= that amount for the months of interest. 
 - Similar analysis could be performed for ice cream sales, but most people may still eat ice cream in the temperature ranges found in the summary statistics, so this may   not be as useful.  
+
+Surf's up, Dude! 🏄
